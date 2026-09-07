@@ -1,3 +1,12 @@
+#!/bin/bash
+
+# Metasploitable3 Setup Script
+#
+# PREPARE DEPENDENCIES:
+# You must download the Windows Server ISO yourself. 
+# The build script will ask you for the path to this ISO. 
+# You cannot skip this; it is legally required to have your own license.
+
 git clone https://github.com/rapid7/metasploitable3.git
 cd metasploitable3
 
